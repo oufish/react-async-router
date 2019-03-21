@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-
-class App extends Component {
+export default  class Child4 extends Component {
   render() {
     return (
-      <div className="App">
-       
+      <div>
+            我是子路由4号
       </div>
     );
   }
 }
 
-export default App;
