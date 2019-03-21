@@ -10,3 +10,4 @@
 2、基于react-router-config这个包实现功能
     1.新增模模块只需要在新增文件夹下增加router。基于require.context获取指定路径下面指定文件名的js(webpack内容)，最终会得到一个Array。碰巧react-router-config此模块的renderRoutes方法接受的三个参数(routes, authed, authPath)。第一个就是arr
 然后啪啦啪啦的敲，是不是特别像vue的路由表了
+----------------------目前还没添加拦截器。不过react-router-config这货有matchRoutes(routes, pathname)这个。完美解决
